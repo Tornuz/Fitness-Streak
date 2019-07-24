@@ -1,0 +1,208 @@
+body,html{
+	overflow-x:hidden;
+}
+
+
+
+.logo-title h1{
+	line-height: 0.1rem;
+	
+	padding-top:15px;
+	margin-top:10px;
+
+}
+.logo-title{
+   text-align:right;
+  font-size:22px;
+  line-height:1.0rem;
+
+}
+.navbar-nav .nav-link:hover{
+	color:red!important;
+}
+ 
+
+.container{
+	font-size:20px;
+	margin-top:8px;
+}
+
+.card{
+	background-color:#4a4c67;
+	
+	text-align: left;
+	padding-left:70px;
+	margin:none!important;
+
+	
+	
+}
+.card-group{
+	margin-bottom:0!important;
+}
+
+
+
+
+#main-footer{
+	text-align: center;
+	font-size:20px;
+}
+
+
+
+
+
+
+.about1{
+	
+	padding-top:60px;
+	position:relative;
+	top:3%;
+	left: 45%;
+	padding-bottom:40px;
+}
+.about2{
+text-align: center;
+
+}
+
+
+
+.wakeup{
+	text-align: center;
+	color:#4a4c67;
+	font-size:100px;
+	padding-top: 12px;
+	padding-bottom:12px;
+
+
+}
+.asdp{
+	  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: 5;
+
+}
+
+.contact1{
+	color:white;
+	text-align: center;
+
+}
+.contact1 h1{
+	font-size:50px;
+	padding-top:70px;
+	padding-bottom:50px;
+}
+
+.add1{
+	font-size:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  text-align: center;
+  color: white;
+
+font-family: 'Archivo Black', sans-serif;
+}
+.parallax {
+  /* The image used */
+  background-image: url("fitness-wallpapers-31078-9672604.jpg");
+
+  /* Set a specific height */
+  height: 771px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* 16px @ 200px increasing to 60px @ 1920px */
+@media (min-width: 200px) {
+  .centered {
+    font-size: calc(1rem + ((1vw - 2px) * 3.1395));
+    /* Where: * 2.5581 = 100 * font_Size_Difference / viewport_Width_Difference */
+  }
+}
+/* Prevent font scaling beyond this breakpoint */
+@media (min-width: 1920px) {
+  .centered {
+    font-size: 60px;
+  }
+}
+
+
+
+@media (min-width: 200px) {
+  .about1 {
+    font-size: calc(1rem + ((1vw - 2px) * 3.1395));
+    /* Where: * 2.5581 = 100 * font_Size_Difference / viewport_Width_Difference */
+  }
+}
+/* Prevent font scaling beyond this breakpoint */
+@media (min-width: 1920px) {
+  .about1 {
+    font-size: 60px;
+  }
+}
+
+
+@media (min-width: 200px) {
+  .about2 {
+    font-size: calc(1rem + ((1vw - 4px) * 1.1395));
+    /* Where: * 2.5581 = 100 * font_Size_Difference / viewport_Width_Difference */
+  }
+}
+/* Prevent font scaling beyond this breakpoint */
+@media (min-width: 1920px) {
+  .about2 {
+    font-size: 50px;
+  }
+}
+
+
+@media (min-width: 200px) {
+  .asdp {
+    font-size: calc(1rem + ((1vw - 1px) * 6.1395));
+    /* Where: * 2.5581 = 100 * font_Size_Difference / viewport_Width_Difference */
+  }
+}
+/* Prevent font scaling beyond this breakpoint */
+@media (min-width: 1920px) {
+  .asdp {
+    font-size: 60px;
+  }
+}
+
+
+@media (min-width: 200px) {
+  .card {
+    font-size: calc(1rem + ((1vw - 2px) * 0.1395));
+    /* Where: * 2.5581 = 100 * font_Size_Difference / viewport_Width_Difference */
+  }
+}
+/* Prevent font scaling beyond this breakpoint */
+@media (min-width: 1920px) {
+  .card {
+    font-size: 60px;
+  }
+}
