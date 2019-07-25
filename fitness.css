@@ -38,7 +38,7 @@ body,html{
 
 .row1{
 	text-align: left;
-	padding-left:100px;
+	padding-left:70px;
 	padding-bottom: 80px;
 }
 
@@ -106,7 +106,12 @@ padding-right:10%;
 
 
 
+.vline1{
+	 border-left: thick solid green;height:5px;
+	 /*transform:rotate(45deg);*/
 
+
+    }
 
 
 
@@ -131,7 +136,7 @@ font-family: 'Archivo Black', sans-serif;
   background-image: url("fitness-wallpapers-31078-9672604.jpg");
 
   /* Set a specific height */
-  height: 771px;
+  height: 781px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -172,7 +177,7 @@ font-family: 'Archivo Black', sans-serif;
 
 @media (min-width: 200px) {
   .about2 {
-    font-size: calc(1rem + ((1vw - 4px) * 1.1395));
+    font-size: calc(1rem + ((1vw - 8px) * 1.1195));
     /* Where: * 2.5581 = 100 * font_Size_Difference / viewport_Width_Difference */
   }
 }

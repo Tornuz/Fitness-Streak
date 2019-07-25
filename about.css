@@ -1,0 +1,149 @@
+body,html{
+	overflow-x:hidden;
+}
+.swim{
+	font-family:lobster;
+	font-size:50px;
+	padding-bottom:50px;
+}
+.swimm{
+	 background-image: linear-gradient(to right,#2980B9,#6DD5FA);
+	 height:100%;
+}
+.swim1{
+	font-family:satisfy;
+	font-size:25px;
+}
+.sports{
+	height:100%;
+	 background-image: linear-gradient(to right,#2980B9,#dbc9bb,#2980B9);
+
+}
+.sports1{
+	font-family:lobster;
+	font-size:50px;
+	padding-bottom:50px;
+}
+.sports2{
+	font-family:satisfy;
+	font-size:25px;
+
+}
+.cycle{
+ background-image: linear-gradient(to right,#485956,#d9c7a1,#d9c7a1);
+	 height:100%;
+}
+.cycle1{
+	font-family:lobster;
+	font-size:50px;
+	padding-bottom:50px;
+}
+.cycle2{
+	font-family:satisfy;
+	font-size:25px;
+}
+
+
+
+ a{
+    font-weight: bold;
+    color: white;
+}
+
+
+.footer1{
+	 background-image: linear-gradient(to right,#141E30,#243B55);
+}
+
+.footer2{
+	color:white;
+	padding-left: 35%;
+}
+.ico1{
+	color: white;
+	padding-right:15%;
+}
+
+.footer3{
+	background-color:#605b7b;
+}
+
+
+.card1{
+	background-image: linear-gradient(to right,#162235,#1b2a40,#1f3249);
+	color:white;
+}
+.card2{
+	background-image: linear-gradient(to right,#1f324a,#243b55,#264c6d);
+	color:white;
+}
+.card3{
+	background-image: linear-gradient(to right,#264f70,#29618b,#2b75a7);
+	color:white;
+}
+
+.logo-title h1{
+	line-height: 0.1rem;
+	
+	padding-top:15px;
+	margin-top:10px;
+
+}
+.logo-title{
+   text-align:right;
+  font-size:22px;
+  line-height:1.0rem;
+  color: white!important;
+
+
+
+}
+.navbar-nav .nav-link:hover{
+	color:red!important;
+}
+ .navbar{
+
+  background-image: linear-gradient(to right,#141E30,#243B55);
+}
+
+ .hm1{
+ 	color:white!important;
+ }
+
+
+/*.carousel{
+	height:700px;
+}*/
+/*.instructor{
+	position:absolute;
+	top:145%;
+	left:12%;
+}*/
+.imgcard{
+	padding:0!important;
+	border:none;
+
+}
+/*	
+
+.corousel1{
+	height:600px!important;
+}
+*/
+
+
+
+#parallax-image .parallax-one{
+  padding-top: 200px; 
+  padding-bottom: 200px; 
+  overflow: hidden;
+  position: relative; 
+  width: 100%; 
+  background-image: linear-gradient(to right,#141E30,#243B55,#2d85bd);
+  background-attachment: fixed; 
+  background-size: cover; 
+  -moz-background-size: cover; 
+  -webkit-background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: top center;
+}
